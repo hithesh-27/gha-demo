@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run for Hari or Javahometech
-        if: github.actor == 'Hari' || github.actor == 'javahometech'
+        if: github.actor == 'hithesh-27' || github.actor == 'javahometech'
         run: echo "It is triggered by either Hari or Javahometech"
